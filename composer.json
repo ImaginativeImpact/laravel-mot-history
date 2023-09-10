@@ -1,0 +1,34 @@
+{
+    "name": "imaginativeimpact/laravel-mot-history",
+    "description": "A Laravel package for retrieving data from the MOT History API",
+    "type": "library",
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/support": "7.x|8.x|9.x|10.x",
+        "guzzlehttp/guzzle": "6.x|7.x",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ImaginativeImpact\\LaravelMotHistory\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mike Bowyer",
+            "email": "mike@imaginativeimpact.com",
+            "homepage": "https://imaginativeimpact.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ImaginativeImpact\\LaravelMotHistory\\MotHistoryServiceProvider"
+            ],
+            "aliases": {
+                "MotHistory": "ImaginativeImpact\\LaravelMotHistory\\Facades\\MotHistory"
+            }
+        }
+    }
+}

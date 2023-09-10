@@ -106,8 +106,8 @@ Contributions are accepted via Pull Requests on [Github](https://github.com/imag
 
 ## Security
 
-If you discover any security related issues, please email security@imaginativeimpact.com email instead of using the issue tracker.
+If you discover any security related issues, please email security@imaginativeimpact.com instead of using the issue tracker.
 
 ## License
 
-MIT
+MIT License. Please see the [license file](LICENSE) for more information.
